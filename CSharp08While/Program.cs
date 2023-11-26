@@ -69,22 +69,62 @@
 //* -quantidade de pessoasobesidade II
 //* -quantidade de pessoasobesidade III
 
+//int indice = 0;
+
+//while (indice < 5)
+//{
+//    Console.Write("Nome: ");
+//    string nome = Console.ReadLine().Trim();
+
+//    Console.Write("Idade: ");
+//    int idade = Convert.ToInt32(Console.ReadLine());
+
+//    Console.Write("Peso: ");
+//    double peso = Convert.ToDouble(Console.ReadLine());
+
+//    Console.Write("Altura: ");
+//    double altura = Convert.ToDouble(Console.ReadLine());
+
+//    double imc = peso / Math.Pow(altura, 2);
+
+//    indice = indice + 1;
+//}
+
 int indice = 0;
+double menorKmPorLitro = 99999999999;
+double maiorQuantidadeKm = 0;
+string modeloMenorQuantidadeKm = 0;
 
-while (indice < 5)
-{
-    Console.Write("Nome: ");
-    string nome = Console.ReadLine().Trim();
+Console.Write("Infome a quantidade de carros que deseja validar: ");
+int quantidadeDesejada = Convert.ToInt32(Console.ReadLine());
 
-    Console.Write("Idade: ");
-    int idade = Convert.ToInt32(Console.ReadLine());
+while(indice < quantidadeDesejada)
 
-    Console.Write("Peso: ");
-    double peso = Convert.ToDouble(Console.ReadLine());
+    Console.Write("Modelo: ");
+    string modelo =  Console.ReadLine().Trim();
 
-    Console.Write("Altura: ");
-    double altura = Convert.ToDouble(Console.ReadLine());
+    Console.Write("Quilometros rodados: ");
+    int quantidadeKm =  Convert.ToInt32(Console.ReadLine());
 
+    Console.Write("Quilometros por litro: ");
+    double KmPorLitro =  Convert.ToDouble(Console.ReadLine());
+    
+    if (quantidadeKm > maiorQuantidadeKm)
+    {
+        maiorQuantidadeKm = quantidadeKm;
+        modeloMenorQuantidadeKm = modelo;
+    }
+
+    if (KmPorLitro < menorKmPorLitro)
+    {
+        menorKmPorLitro = KmPorLitro;
+    modeloMenorQuantidadeKm = modelo;
+    }
+
+    Console.WriteLine("\n\n");
     indice = indice + 1;
 }
-  
+
+Console.WriteLine(
+    modeloMenorQuantidadeKm + "possui o menor consumo por litro: " + menorKmPorLitro +
+    "\n" + modeloMenorQuantidadeKm + " possui a maior quilometragem rodados: " + maiorQuantidadeKm);

@@ -20,9 +20,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Itens de Solução", "Itens
 		.gitignore = .gitignore
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp07StringMetodos", "CSharp07StringMetodos\CSharp07StringMetodos.csproj", "{2E187854-A1D2-48D1-9914-E16334F246EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharp07StringMetodos", "CSharp07StringMetodos\CSharp07StringMetodos.csproj", "{2E187854-A1D2-48D1-9914-E16334F246EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp08While", "CSharp08While\CSharp08While.csproj", "{B06F9D59-B581-42CF-8F53-BC12874D4365}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharp08While", "CSharp08While\CSharp08While.csproj", "{B06F9D59-B581-42CF-8F53-BC12874D4365}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp09Arquivo", "CSharp09While\CSharp09Arquivo.csproj", "{73FB9EB6-2C0B-409D-ADDA-C67CFF8131FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp10Vetores", "CSharp10Vetores\CSharp10Vetores.csproj", "{229D12C1-65E4-4E77-BB5C-A41FE682D7EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -62,6 +66,14 @@ Global
 		{B06F9D59-B581-42CF-8F53-BC12874D4365}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B06F9D59-B581-42CF-8F53-BC12874D4365}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B06F9D59-B581-42CF-8F53-BC12874D4365}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73FB9EB6-2C0B-409D-ADDA-C67CFF8131FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73FB9EB6-2C0B-409D-ADDA-C67CFF8131FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73FB9EB6-2C0B-409D-ADDA-C67CFF8131FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73FB9EB6-2C0B-409D-ADDA-C67CFF8131FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{229D12C1-65E4-4E77-BB5C-A41FE682D7EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{229D12C1-65E4-4E77-BB5C-A41FE682D7EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{229D12C1-65E4-4E77-BB5C-A41FE682D7EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{229D12C1-65E4-4E77-BB5C-A41FE682D7EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

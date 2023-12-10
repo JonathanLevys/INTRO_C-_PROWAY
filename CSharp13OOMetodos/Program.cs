@@ -1,20 +1,22 @@
-﻿using CSharp13OOMetodos;
-using CSharp13OOMetodos.Exemplos;
+﻿using CSharp13OOMetodos.Exemplos;
 using System.Text;
 
 Console.OutputEncoding = Encoding.UTF8;
 
 /*
-//Intanciado um objeto(exemplo01) da clase Exemplo01 
-exemplo01 exemplo01 = new exemplo01();
-//Chamado o métod Executar do objeto(exemplo01)
+// Instanciado um objeto(exemplo01) da classe Exemplo01
+Exemplo01 exemplo01 = new Exemplo01();
+// Chamado o método Executar do objeto(exemplo01)
 exemplo01.Executar();
 */
 
-//Instaciar um objeto da clase Exemplo02
+// Instanciar um objeto da classe Exemplo02
 //Exemplo02 exemplo02 = new Exemplo02();
 //exemplo02.Executar();
 
-//Instaciar um objeto da clase Exemplo03
-Exemplo03 exemplo03 = new Exemplo03();
-exemplo03.Executar();
+// Instanciar um objeto da classe Exemplo03
+//Exemplo03 exemplo03 = new Exemplo03();
+//exemplo03.Executar();
+
+Exercicio01 exercicio01 = new Exercicio01();
+exercicio01.Executar();

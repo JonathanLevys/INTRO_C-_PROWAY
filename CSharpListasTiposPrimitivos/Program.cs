@@ -48,5 +48,8 @@ using System.Text;
 
 Console.OutputEncoding = Encoding.UTF8;
 
-Exemplo01 exemplo01 = new Exemplo01();
-exemplo01.Executar();
+//Exemplo01 exemplo01 = new Exemplo01();
+//exemplo01.Executar();
+
+Exercicio01 exercicio01 = new Exercicio01();
+exercicio01.Executar();
